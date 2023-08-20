@@ -4,5 +4,12 @@ export default defineNuxtConfig({
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
-  modules: ['@nuxtjs/tailwindcss']
+  modules: ['@nuxtjs/tailwindcss'],
+  build: {
+    transpile: [
+      '@fortawesome/fontawesome-svg-core',
+      '@fortawesome/vue-fontawesome',
+      '@fortawesome/free-solid-svg-icons',
+    ]
+  }
 })
