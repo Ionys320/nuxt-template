@@ -10,12 +10,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@types/node": "^22.14.1",
+    "nuxt": "^3.16.2"
   },
   "dependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/vue-fontawesome": "^3.0.3"
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8"
   }
 }
